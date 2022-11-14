@@ -1,4 +1,6 @@
-let random_number = parseInt(Math.random() * 11);
+let n = prompt("Qual è il numero massimo consenito da generare?")
+
+let random_number = parseInt(Math.random() * n);
 
 let user_number = prompt("Quale pensa sia il numero generato casualmente?");
 
